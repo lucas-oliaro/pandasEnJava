@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Lecturacsv {
      public static void main(String[] args) {
-        String csvFilePath = "Ejercicios/src/TP_Ideas/utils/industry_sic.csv";
+        String csvFilePath = "./src/utils/industry_sic.csv";
     
         try (BufferedReader reader = new BufferedReader(new FileReader(csvFilePath))) {
             String line;
